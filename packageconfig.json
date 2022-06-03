@@ -1,0 +1,10 @@
+{
+    "apiPackage": "com.cloudmersive.client.gac",
+    "modelPackage": "com.cloudmersive.client.gac.model",
+    "invokerPackage": "com.cloudmersive.client.gac.invoker",
+    "groupId": "com.cloudmersive.gac",
+    "artifactId": "cloudmersive-java-api-client-gac",
+    "library": "webclient",
+    "artifactVersion": "4.0.1",
+    "useAbstractionForFiles": "true"
+}
