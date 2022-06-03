@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SimilarityAnalysisRequest.JSON_PROPERTY_TEXT_TO_ANALYZE1,
   SimilarityAnalysisRequest.JSON_PROPERTY_TEXT_TO_ANALYZE2
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:49.362192400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:36.056137200-07:00[America/Los_Angeles]")
 public class SimilarityAnalysisRequest {
   public static final String JSON_PROPERTY_TEXT_TO_ANALYZE1 = "TextToAnalyze1";
   private String textToAnalyze1;

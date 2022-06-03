@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   RecognitionOutcome.JSON_PROPERTY_CONFIDENCE_SCORE,
   RecognitionOutcome.JSON_PROPERTY_DESCRIPTION
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:57.968804100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:45.286050300-07:00[America/Los_Angeles]")
 public class RecognitionOutcome {
   public static final String JSON_PROPERTY_CONFIDENCE_SCORE = "ConfidenceScore";
   private Double confidenceScore;

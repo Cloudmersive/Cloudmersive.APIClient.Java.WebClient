@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   RemoveDocxHeadersAndFootersRequest.JSON_PROPERTY_REMOVE_HEADERS,
   RemoveDocxHeadersAndFootersRequest.JSON_PROPERTY_REMOVE_FOOTERS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class RemoveDocxHeadersAndFootersRequest {
   public static final String JSON_PROPERTY_INPUT_FILE_BYTES = "InputFileBytes";
   private byte[] inputFileBytes;

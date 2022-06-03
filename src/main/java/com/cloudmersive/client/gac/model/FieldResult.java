@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FieldResult.JSON_PROPERTY_TARGET_FIELD,
   FieldResult.JSON_PROPERTY_FIELD_VALUES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:52.595540500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:39.143700400-07:00[America/Los_Angeles]")
 public class FieldResult {
   public static final String JSON_PROPERTY_TARGET_FIELD = "TargetField";
   private FormFieldDefinition targetField;

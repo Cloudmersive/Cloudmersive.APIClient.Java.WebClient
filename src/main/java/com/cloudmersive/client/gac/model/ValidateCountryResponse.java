@@ -46,7 +46,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ValidateCountryResponse.JSON_PROPERTY_REGION,
   ValidateCountryResponse.JSON_PROPERTY_SUBREGION
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:45.731195400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:32.359992900-07:00[America/Los_Angeles]")
 public class ValidateCountryResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

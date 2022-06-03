@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   RemoveWhitespaceFromTextRequest.JSON_PROPERTY_TEXT_CONTAINING_WHITESPACE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class RemoveWhitespaceFromTextRequest {
   public static final String JSON_PROPERTY_TEXT_CONTAINING_WHITESPACE = "TextContainingWhitespace";
   private String textContainingWhitespace;

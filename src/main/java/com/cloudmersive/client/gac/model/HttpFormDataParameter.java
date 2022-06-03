@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   HttpFormDataParameter.JSON_PROPERTY_PARAMETER_FILE_CONTENTS,
   HttpFormDataParameter.JSON_PROPERTY_USE_OUTPUT_FROM_PREVIOUS_TASK
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:12.838058600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:59.469017-07:00[America/Los_Angeles]")
 public class HttpFormDataParameter {
   public static final String JSON_PROPERTY_PARAMETER_NAME = "ParameterName";
   private String parameterName;

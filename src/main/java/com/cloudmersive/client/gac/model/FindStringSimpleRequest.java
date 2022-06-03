@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FindStringSimpleRequest.JSON_PROPERTY_TEXT_CONTENT,
   FindStringSimpleRequest.JSON_PROPERTY_TARGET_STRING
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class FindStringSimpleRequest {
   public static final String JSON_PROPERTY_TEXT_CONTENT = "TextContent";
   private String textContent;

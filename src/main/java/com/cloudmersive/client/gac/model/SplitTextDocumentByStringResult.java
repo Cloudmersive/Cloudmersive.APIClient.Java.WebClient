@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SplitTextDocumentByStringResult.JSON_PROPERTY_SUCCESSFUL,
   SplitTextDocumentByStringResult.JSON_PROPERTY_ELEMENT_COUNT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class SplitTextDocumentByStringResult {
   public static final String JSON_PROPERTY_RESULT_ELEMENTS = "ResultElements";
   private List<TextDocumentElement> resultElements = null;

@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MssqlBakEnumerateTablesResult.JSON_PROPERTY_SUCCESSFUL,
   MssqlBakEnumerateTablesResult.JSON_PROPERTY_TABLES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:18.503409-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:39:06.977413200-07:00[America/Los_Angeles]")
 public class MssqlBakEnumerateTablesResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "successful";
   private Boolean successful;

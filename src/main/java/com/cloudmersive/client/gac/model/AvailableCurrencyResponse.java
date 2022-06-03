@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   AvailableCurrencyResponse.JSON_PROPERTY_CURRENCIES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:21.455246100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:39:11.036773300-07:00[America/Los_Angeles]")
 public class AvailableCurrencyResponse {
   public static final String JSON_PROPERTY_CURRENCIES = "Currencies";
   private List<AvailableCurrency> currencies = null;

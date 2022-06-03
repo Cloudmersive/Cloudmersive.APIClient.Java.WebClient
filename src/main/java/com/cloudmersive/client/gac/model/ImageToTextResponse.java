@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ImageToTextResponse.JSON_PROPERTY_MEAN_CONFIDENCE_LEVEL,
   ImageToTextResponse.JSON_PROPERTY_TEXT_RESULT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:52.595540500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:39.143700400-07:00[America/Los_Angeles]")
 public class ImageToTextResponse {
   public static final String JSON_PROPERTY_MEAN_CONFIDENCE_LEVEL = "MeanConfidenceLevel";
   private Float meanConfidenceLevel;

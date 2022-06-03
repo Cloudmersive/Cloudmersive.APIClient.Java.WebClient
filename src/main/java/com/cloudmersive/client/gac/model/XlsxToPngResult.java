@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   XlsxToPngResult.JSON_PROPERTY_SUCCESSFUL,
   XlsxToPngResult.JSON_PROPERTY_PNG_RESULT_PAGES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class XlsxToPngResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

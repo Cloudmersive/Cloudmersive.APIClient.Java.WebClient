@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   UrlToPdfRequest.JSON_PROPERTY_INCLUDE_BACKGROUND_GRAPHICS,
   UrlToPdfRequest.JSON_PROPERTY_SCALE_FACTOR
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class UrlToPdfRequest {
   public static final String JSON_PROPERTY_URL = "Url";
   private String url;

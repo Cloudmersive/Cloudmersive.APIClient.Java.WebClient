@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   TableCellResult.JSON_PROPERTY_COLUMN_I_D,
   TableCellResult.JSON_PROPERTY_CELL_VALUES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:52.595540500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:39.143700400-07:00[America/Los_Angeles]")
 public class TableCellResult {
   public static final String JSON_PROPERTY_COLUMN_I_D = "ColumnID";
   private String columnID;

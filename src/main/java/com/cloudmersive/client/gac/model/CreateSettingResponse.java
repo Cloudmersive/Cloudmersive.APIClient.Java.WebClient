@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CreateSettingResponse.JSON_PROPERTY_SETTING_VALUE_I_D,
   CreateSettingResponse.JSON_PROPERTY_ERROR_MESSAGE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:12.838058600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:59.469017-07:00[America/Los_Angeles]")
 public class CreateSettingResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

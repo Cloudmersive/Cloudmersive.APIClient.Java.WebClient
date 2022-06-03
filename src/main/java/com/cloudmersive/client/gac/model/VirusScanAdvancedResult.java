@@ -48,7 +48,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   VirusScanAdvancedResult.JSON_PROPERTY_FOUND_VIRUSES,
   VirusScanAdvancedResult.JSON_PROPERTY_CONTENT_INFORMATION
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:09.766816-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:56.710113300-07:00[America/Los_Angeles]")
 public class VirusScanAdvancedResult {
   public static final String JSON_PROPERTY_CLEAN_RESULT = "CleanResult";
   private Boolean cleanResult;

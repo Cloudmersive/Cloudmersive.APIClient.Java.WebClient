@@ -4,7 +4,7 @@ currencyapi
 
 - API version: v1
 
-- Build date: 2022-06-02T23:27:21.455246100-07:00[America/Los_Angeles]
+- Build date: 2022-06-02T23:39:11.036773300-07:00[America/Los_Angeles]
 
 The currency APIs help you retrieve exchange rates and convert prices between currencies easily.
 

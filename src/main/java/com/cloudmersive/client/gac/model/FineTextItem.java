@@ -42,7 +42,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FineTextItem.JSON_PROPERTY_HEIGHT,
   FineTextItem.JSON_PROPERTY_ANGLE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:57.968804100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:45.286050300-07:00[America/Los_Angeles]")
 public class FineTextItem {
   public static final String JSON_PROPERTY_TOP_LEFT_X = "TopLeftX";
   private Integer topLeftX;

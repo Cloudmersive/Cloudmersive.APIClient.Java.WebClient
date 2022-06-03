@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ValidatePostalCodeRequest.JSON_PROPERTY_COUNTRY_FULL_NAME,
   ValidatePostalCodeRequest.JSON_PROPERTY_COUNTRY_CODE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:26:45.731195400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:32.359992900-07:00[America/Los_Angeles]")
 public class ValidatePostalCodeRequest {
   public static final String JSON_PROPERTY_POSTAL_CODE = "PostalCode";
   private String postalCode;

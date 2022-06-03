@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SetPdfFormFieldsRequest.JSON_PROPERTY_FIELD_VALUES,
   SetPdfFormFieldsRequest.JSON_PROPERTY_INPUT_FILE_BYTES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:02.750428300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
 public class SetPdfFormFieldsRequest {
   public static final String JSON_PROPERTY_FIELD_VALUES = "FieldValues";
   private List<SetFormFieldValue> fieldValues = null;

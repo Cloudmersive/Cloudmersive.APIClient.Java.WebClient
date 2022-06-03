@@ -47,7 +47,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   HttpOrchestrationTask.JSON_PROPERTY_RAW_TEXT_BODY,
   HttpOrchestrationTask.JSON_PROPERTY_RAW_BINARY_BODY
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:27:12.838058600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:59.469017-07:00[America/Los_Angeles]")
 public class HttpOrchestrationTask {
   public static final String JSON_PROPERTY_TASK_NAME = "TaskName";
   private String taskName;
