@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CheckWordResponse.JSON_PROPERTY_CORRECT,
   CheckWordResponse.JSON_PROPERTY_SUGGESTIONS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:52.799943-07:00[America/Los_Angeles]")
 public class CheckWordResponse {
   public static final String JSON_PROPERTY_CORRECT = "Correct";
   private Boolean correct;

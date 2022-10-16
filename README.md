@@ -4,7 +4,7 @@ currencyapi
 
 - API version: v1
 
-- Build date: 2022-10-15T18:16:57.670203600-07:00[America/Los_Angeles]
+- Build date: 2022-10-15T18:18:29.971705200-07:00[America/Los_Angeles]
 
 The currency APIs help you retrieve exchange rates and convert prices between currencies easily.
 
@@ -42,7 +42,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.cloudmersive.gac</groupId>
   <artifactId>cloudmersive-java-api-client-gac</artifactId>
-  <version>4.1.1</version>
+  <version>4.1.2</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -58,7 +58,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "com.cloudmersive.gac:cloudmersive-java-api-client-gac:4.1.1"
+     implementation "com.cloudmersive.gac:cloudmersive-java-api-client-gac:4.1.2"
   }
 ```
 
@@ -72,7 +72,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-- `target/cloudmersive-java-api-client-gac-4.1.1.jar`
+- `target/cloudmersive-java-api-client-gac-4.1.2.jar`
 - `target/lib/*.jar`
 
 ## Getting Started

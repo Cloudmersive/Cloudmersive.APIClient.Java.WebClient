@@ -3,7 +3,7 @@ package com.cloudmersive.client.gac.invoker.auth;
 import org.springframework.http.HttpHeaders;
 import org.springframework.util.MultiValueMap;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:57.670203600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:29.971705200-07:00[America/Los_Angeles]")
 public class ApiKeyAuth implements Authentication {
     private final String location;
     private final String paramName;

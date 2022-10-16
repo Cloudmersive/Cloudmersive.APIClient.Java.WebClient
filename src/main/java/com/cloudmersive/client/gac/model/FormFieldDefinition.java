@@ -51,7 +51,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FormFieldDefinition.JSON_PROPERTY_IGNORE,
   FormFieldDefinition.JSON_PROPERTY_OPTIONS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:27.708282300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:56.032546900-07:00[America/Los_Angeles]")
 public class FormFieldDefinition {
   public static final String JSON_PROPERTY_FIELD_I_D = "FieldID";
   private String fieldID;

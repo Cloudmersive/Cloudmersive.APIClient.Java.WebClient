@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   StillFrame.JSON_PROPERTY_TIME_STAMP,
   StillFrame.JSON_PROPERTY_CONTENT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:51.413353-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:21.457817100-07:00[America/Los_Angeles]")
 public class StillFrame {
   public static final String JSON_PROPERTY_FRAME_NUMBER = "FrameNumber";
   private Integer frameNumber;

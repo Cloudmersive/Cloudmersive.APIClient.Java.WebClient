@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   ProfanityAnalysisRequest.JSON_PROPERTY_TEXT_TO_ANALYZE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:52.799943-07:00[America/Los_Angeles]")
 public class ProfanityAnalysisRequest {
   public static final String JSON_PROPERTY_TEXT_TO_ANALYZE = "TextToAnalyze";
   private String textToAnalyze;

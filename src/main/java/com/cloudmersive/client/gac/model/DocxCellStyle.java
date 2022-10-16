@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxCellStyle.JSON_PROPERTY_FORMAT_I_D,
   DocxCellStyle.JSON_PROPERTY_BUILT_IN_I_D
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class DocxCellStyle {
   public static final String JSON_PROPERTY_PATH = "Path";
   private String path;

@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ConvertedCurrencyResult.JSON_PROPERTY_CURRENCY_SYMBOL,
   ConvertedCurrencyResult.JSON_PROPERTY_FORMATTED_PRICE_AS_STRING
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:57.670203600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:29.971705200-07:00[America/Los_Angeles]")
 public class ConvertedCurrencyResult {
   public static final String JSON_PROPERTY_CONVERTED_PRICE = "ConvertedPrice";
   private Double convertedPrice;

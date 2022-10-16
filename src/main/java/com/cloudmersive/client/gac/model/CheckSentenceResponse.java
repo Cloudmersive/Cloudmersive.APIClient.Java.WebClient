@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CheckSentenceResponse.JSON_PROPERTY_INCORRECT_COUNT,
   CheckSentenceResponse.JSON_PROPERTY_WORDS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:52.799943-07:00[America/Los_Angeles]")
 public class CheckSentenceResponse {
   public static final String JSON_PROPERTY_INCORRECT_COUNT = "IncorrectCount";
   private Integer incorrectCount;

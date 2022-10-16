@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FaceMatch.JSON_PROPERTY_HIGH_CONFIDENCE_MATCH,
   FaceMatch.JSON_PROPERTY_MATCH_SCORE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:33.831018100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:01.811624800-07:00[America/Los_Angeles]")
 public class FaceMatch {
   public static final String JSON_PROPERTY_LEFT_X = "LeftX";
   private Integer leftX;

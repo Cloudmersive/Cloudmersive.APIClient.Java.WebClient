@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DetectedObject.JSON_PROPERTY_X,
   DetectedObject.JSON_PROPERTY_Y
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:33.831018100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:01.811624800-07:00[America/Los_Angeles]")
 public class DetectedObject {
   public static final String JSON_PROPERTY_OBJECT_CLASS_NAME = "ObjectClassName";
   private String objectClassName;

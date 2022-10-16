@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   CheckResponse.JSON_PROPERTY_VALID_DOMAIN
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:19.474063200-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:48.638092300-07:00[America/Los_Angeles]")
 public class CheckResponse {
   public static final String JSON_PROPERTY_VALID_DOMAIN = "ValidDomain";
   private Boolean validDomain;

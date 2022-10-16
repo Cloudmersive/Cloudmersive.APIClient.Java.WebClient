@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SplitPptxPresentationResult.JSON_PROPERTY_RESULT_PRESENTATIONS,
   SplitPptxPresentationResult.JSON_PROPERTY_SUCCESSFUL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class SplitPptxPresentationResult {
   public static final String JSON_PROPERTY_RESULT_PRESENTATIONS = "ResultPresentations";
   private List<PresentationResult> resultPresentations = null;

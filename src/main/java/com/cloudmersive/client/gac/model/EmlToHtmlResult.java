@@ -43,7 +43,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   EmlToHtmlResult.JSON_PROPERTY_SUBJECT,
   EmlToHtmlResult.JSON_PROPERTY_ATTACHMENTS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class EmlToHtmlResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

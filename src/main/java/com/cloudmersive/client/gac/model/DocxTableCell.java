@@ -42,7 +42,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxTableCell.JSON_PROPERTY_CELL_WIDTH_MODE,
   DocxTableCell.JSON_PROPERTY_CELL_WIDTH
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class DocxTableCell {
   public static final String JSON_PROPERTY_CELL_INDEX = "CellIndex";
   private Integer cellIndex;

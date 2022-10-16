@@ -43,7 +43,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MediaInformation.JSON_PROPERTY_DURATION,
   MediaInformation.JSON_PROPERTY_START_TIME
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:51.413353-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:21.457817100-07:00[America/Los_Angeles]")
 public class MediaInformation {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

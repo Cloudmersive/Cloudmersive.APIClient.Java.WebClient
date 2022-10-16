@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SqlInjectionDetectionResult.JSON_PROPERTY_CONTAINED_SQL_INJECTION_ATTACK,
   SqlInjectionDetectionResult.JSON_PROPERTY_ORIGINAL_INPUT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:19.474063200-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:48.638092300-07:00[America/Los_Angeles]")
 public class SqlInjectionDetectionResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

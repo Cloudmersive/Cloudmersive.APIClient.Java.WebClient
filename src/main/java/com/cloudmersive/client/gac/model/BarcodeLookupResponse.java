@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   BarcodeLookupResponse.JSON_PROPERTY_SUCCESSFUL,
   BarcodeLookupResponse.JSON_PROPERTY_MATCHES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:30.997606300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:58.888224100-07:00[America/Los_Angeles]")
 public class BarcodeLookupResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

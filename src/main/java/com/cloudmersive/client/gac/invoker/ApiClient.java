@@ -69,7 +69,7 @@ import com.cloudmersive.client.gac.invoker.auth.HttpBasicAuth;
 import com.cloudmersive.client.gac.invoker.auth.HttpBearerAuth;
 import com.cloudmersive.client.gac.invoker.auth.ApiKeyAuth;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:57.670203600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:29.971705200-07:00[America/Los_Angeles]")
 public class ApiClient extends JavaTimeFormatter {
     public enum CollectionFormat {
         CSV(","), TSV("\t"), SSV(" "), PIPES("|"), MULTI(null);

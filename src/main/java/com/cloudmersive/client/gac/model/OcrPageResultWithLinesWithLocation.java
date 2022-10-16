@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   OcrPageResultWithLinesWithLocation.JSON_PROPERTY_SUCCESSFUL,
   OcrPageResultWithLinesWithLocation.JSON_PROPERTY_LINES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:27.708282300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:56.032546900-07:00[America/Los_Angeles]")
 public class OcrPageResultWithLinesWithLocation {
   public static final String JSON_PROPERTY_PAGE_NUMBER = "PageNumber";
   private Integer pageNumber;

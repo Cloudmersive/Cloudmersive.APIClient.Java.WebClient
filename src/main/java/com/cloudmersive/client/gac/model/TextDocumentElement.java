@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   TextDocumentElement.JSON_PROPERTY_ELEMENT_NUMBER,
   TextDocumentElement.JSON_PROPERTY_ELEMENT_CONTENTS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class TextDocumentElement {
   public static final String JSON_PROPERTY_ELEMENT_NUMBER = "ElementNumber";
   private Integer elementNumber;

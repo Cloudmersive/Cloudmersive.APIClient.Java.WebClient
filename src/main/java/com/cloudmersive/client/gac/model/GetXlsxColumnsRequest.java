@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   GetXlsxColumnsRequest.JSON_PROPERTY_INPUT_FILE_URL,
   GetXlsxColumnsRequest.JSON_PROPERTY_WORKSHEET_TO_QUERY
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class GetXlsxColumnsRequest {
   public static final String JSON_PROPERTY_INPUT_FILE_BYTES = "InputFileBytes";
   private byte[] inputFileBytes;

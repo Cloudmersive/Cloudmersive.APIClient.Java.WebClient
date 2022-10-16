@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   HateSpeechAnalysisResponse.JSON_PROPERTY_HATE_SPEECH_SCORE_RESULT,
   HateSpeechAnalysisResponse.JSON_PROPERTY_SENTENCE_COUNT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:17:52.799943-07:00[America/Los_Angeles]")
 public class HateSpeechAnalysisResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

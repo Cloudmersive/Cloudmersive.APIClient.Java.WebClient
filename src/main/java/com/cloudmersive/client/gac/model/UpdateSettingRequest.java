@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   UpdateSettingRequest.JSON_PROPERTY_BUCKET_SECRET_KEY,
   UpdateSettingRequest.JSON_PROPERTY_SETTING_TO_UPDATE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:47.772048100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:15.810531700-07:00[America/Los_Angeles]")
 public class UpdateSettingRequest {
   public static final String JSON_PROPERTY_BUCKET_I_D = "BucketID";
   private String bucketID;

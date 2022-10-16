@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FindStringMatch.JSON_PROPERTY_CHARACTER_OFFSET_END,
   FindStringMatch.JSON_PROPERTY_CONTAINING_LINE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class FindStringMatch {
   public static final String JSON_PROPERTY_CHARACTER_OFFSET_START = "CharacterOffsetStart";
   private Integer characterOffsetStart;

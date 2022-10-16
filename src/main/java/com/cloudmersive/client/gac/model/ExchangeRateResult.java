@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   ExchangeRateResult.JSON_PROPERTY_EXCHANGE_RATE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:57.670203600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:29.971705200-07:00[America/Los_Angeles]")
 public class ExchangeRateResult {
   public static final String JSON_PROPERTY_EXCHANGE_RATE = "ExchangeRate";
   private Double exchangeRate;

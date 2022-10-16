@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxTableRow.JSON_PROPERTY_PATH,
   DocxTableRow.JSON_PROPERTY_ROW_CELLS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:06.409836300-07:00[America/Los_Angeles]")
 public class DocxTableRow {
   public static final String JSON_PROPERTY_ROW_INDEX = "RowIndex";
   private Integer rowIndex;

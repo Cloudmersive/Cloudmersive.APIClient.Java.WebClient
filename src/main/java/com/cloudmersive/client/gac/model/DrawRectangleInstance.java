@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DrawRectangleInstance.JSON_PROPERTY_WIDTH,
   DrawRectangleInstance.JSON_PROPERTY_HEIGHT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:33.831018100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:18:01.811624800-07:00[America/Los_Angeles]")
 public class DrawRectangleInstance {
   public static final String JSON_PROPERTY_BORDER_COLOR = "BorderColor";
   private String borderColor;
