@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FormTableColumnDefinition.JSON_PROPERTY_MINIMUM_CHARACTER_COUNT,
   FormTableColumnDefinition.JSON_PROPERTY_ALLOW_NUMERIC_DIGITS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:39.143700400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:11.081951500-07:00[America/Los_Angeles]")
 public class FormTableColumnDefinition {
   public static final String JSON_PROPERTY_COLUMN_I_D = "ColumnID";
   private String columnID;

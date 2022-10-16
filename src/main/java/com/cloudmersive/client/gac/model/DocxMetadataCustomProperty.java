@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxMetadataCustomProperty.JSON_PROPERTY_DOUBLE_VALUE,
   DocxMetadataCustomProperty.JSON_PROPERTY_DATE_VALUE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
 public class DocxMetadataCustomProperty {
   public static final String JSON_PROPERTY_PROPERTY_NAME = "PropertyName";
   private String propertyName;

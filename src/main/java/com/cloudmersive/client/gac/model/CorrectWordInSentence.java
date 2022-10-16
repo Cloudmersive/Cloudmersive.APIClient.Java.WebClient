@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CorrectWordInSentence.JSON_PROPERTY_CORRECT,
   CorrectWordInSentence.JSON_PROPERTY_SUGGESTIONS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:36.056137200-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:07.449581100-07:00[America/Los_Angeles]")
 public class CorrectWordInSentence {
   public static final String JSON_PROPERTY_WORD = "Word";
   private WordPosition word;

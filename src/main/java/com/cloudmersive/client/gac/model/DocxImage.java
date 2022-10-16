@@ -43,7 +43,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxImage.JSON_PROPERTY_IMAGE_CONTENTS_U_R_L,
   DocxImage.JSON_PROPERTY_INLINE_WITH_TEXT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
 public class DocxImage {
   public static final String JSON_PROPERTY_PATH = "Path";
   private String path;

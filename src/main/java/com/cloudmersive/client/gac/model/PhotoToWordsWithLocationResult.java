@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   PhotoToWordsWithLocationResult.JSON_PROPERTY_TEXT_ELEMENTS,
   PhotoToWordsWithLocationResult.JSON_PROPERTY_DIAGNOSTIC_IMAGE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:39.143700400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:11.081951500-07:00[America/Los_Angeles]")
 public class PhotoToWordsWithLocationResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

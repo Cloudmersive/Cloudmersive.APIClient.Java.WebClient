@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SplitVideoResult.JSON_PROPERTY_SUCCESSFUL,
   SplitVideoResult.JSON_PROPERTY_VIDEOS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:39:03.974187800-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:34.870739900-07:00[America/Los_Angeles]")
 public class SplitVideoResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

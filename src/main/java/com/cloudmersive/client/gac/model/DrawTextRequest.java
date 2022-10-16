@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DrawTextRequest.JSON_PROPERTY_BASE_IMAGE_URL,
   DrawTextRequest.JSON_PROPERTY_TEXT_TO_DRAW
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:45.286050300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:17.104419100-07:00[America/Los_Angeles]")
 public class DrawTextRequest {
   public static final String JSON_PROPERTY_BASE_IMAGE_BYTES = "BaseImageBytes";
   private byte[] baseImageBytes;

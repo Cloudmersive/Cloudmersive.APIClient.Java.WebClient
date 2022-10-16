@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   VirusFound.JSON_PROPERTY_FILE_NAME,
   VirusFound.JSON_PROPERTY_VIRUS_NAME
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:56.710113300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:27.877589-07:00[America/Los_Angeles]")
 public class VirusFound {
   public static final String JSON_PROPERTY_FILE_NAME = "FileName";
   private String fileName;

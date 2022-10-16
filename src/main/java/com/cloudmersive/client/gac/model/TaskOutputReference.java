@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   TaskOutputReference.JSON_PROPERTY_TASK_NAME,
   TaskOutputReference.JSON_PROPERTY_TARGET_TYPE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:59.469017-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:30.980827500-07:00[America/Los_Angeles]")
 public class TaskOutputReference {
   public static final String JSON_PROPERTY_TASK_NAME = "TaskName";
   private String taskName;

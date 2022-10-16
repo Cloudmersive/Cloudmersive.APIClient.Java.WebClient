@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CloudStorageVirusScanResult.JSON_PROPERTY_FILE_SIZE,
   CloudStorageVirusScanResult.JSON_PROPERTY_CONTAINS_CONTENT_MODERATION_REJECTION
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:56.710113300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:27.877589-07:00[America/Los_Angeles]")
 public class CloudStorageVirusScanResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

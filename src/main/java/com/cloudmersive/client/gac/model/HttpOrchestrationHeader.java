@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   HttpOrchestrationHeader.JSON_PROPERTY_HEADER_VALUE,
   HttpOrchestrationHeader.JSON_PROPERTY_USE_OUTPUT_FROM_PREVIOUS_TASK
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:59.469017-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:30.980827500-07:00[America/Los_Angeles]")
 public class HttpOrchestrationHeader {
   public static final String JSON_PROPERTY_HEADER_NAME = "HeaderName";
   private String headerName;

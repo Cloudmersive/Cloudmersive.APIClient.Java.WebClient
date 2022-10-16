@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DrawTextInstance.JSON_PROPERTY_WIDTH,
   DrawTextInstance.JSON_PROPERTY_HEIGHT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:45.286050300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:17.104419100-07:00[America/Los_Angeles]")
 public class DrawTextInstance {
   public static final String JSON_PROPERTY_TEXT = "Text";
   private String text;

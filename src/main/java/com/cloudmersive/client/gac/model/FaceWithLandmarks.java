@@ -47,7 +47,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FaceWithLandmarks.JSON_PROPERTY_LIPS_INNER_OUTLINE,
   FaceWithLandmarks.JSON_PROPERTY_LIPS_OUTER_OUTLINE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:45.286050300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:17.104419100-07:00[America/Los_Angeles]")
 public class FaceWithLandmarks {
   public static final String JSON_PROPERTY_LEFT_X = "LeftX";
   private Integer leftX;

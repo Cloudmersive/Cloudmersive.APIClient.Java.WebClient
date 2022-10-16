@@ -27,7 +27,7 @@ import org.springframework.http.ResponseEntity;
 import reactor.core.publisher.Mono;
 import reactor.core.publisher.Flux;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:56.710113300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:27.877589-07:00[America/Los_Angeles]")
 public class ScanCloudStorageApi {
     private ApiClient apiClient;
 
@@ -149,11 +149,13 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    private ResponseSpec scanCloudStorageScanAwsS3FileAdvancedRequestCreation(String accessKey, String secretKey, String bucketRegion, String bucketName, String keyName, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    private ResponseSpec scanCloudStorageScanAwsS3FileAdvancedRequestCreation(String accessKey, String secretKey, String bucketRegion, String bucketName, String keyName, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         Object postBody = null;
         // verify the required parameter 'accessKey' is set
         if (accessKey == null) {
@@ -205,6 +207,10 @@ public class ScanCloudStorageApi {
         headerParams.add("allowMacros", apiClient.parameterToString(allowMacros));
         if (allowXmlExternalEntities != null)
         headerParams.add("allowXmlExternalEntities", apiClient.parameterToString(allowXmlExternalEntities));
+        if (allowInsecureDeserialization != null)
+        headerParams.add("allowInsecureDeserialization", apiClient.parameterToString(allowInsecureDeserialization));
+        if (allowHtml != null)
+        headerParams.add("allowHtml", apiClient.parameterToString(allowHtml));
         if (restrictFileTypes != null)
         headerParams.add("restrictFileTypes", apiClient.parameterToString(restrictFileTypes));
         final String[] localVarAccepts = { 
@@ -235,18 +241,20 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanAwsS3FileAdvanced(String accessKey, String secretKey, String bucketRegion, String bucketName, String keyName, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanAwsS3FileAdvanced(String accessKey, String secretKey, String bucketRegion, String bucketName, String keyName, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanAwsS3FileAdvancedRequestCreation(accessKey, secretKey, bucketRegion, bucketName, keyName, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).bodyToMono(localVarReturnType);
+        return scanCloudStorageScanAwsS3FileAdvancedRequestCreation(accessKey, secretKey, bucketRegion, bucketName, keyName, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).bodyToMono(localVarReturnType);
     }
 
-    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanAwsS3FileAdvancedWithHttpInfo(String accessKey, String secretKey, String bucketRegion, String bucketName, String keyName, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanAwsS3FileAdvancedWithHttpInfo(String accessKey, String secretKey, String bucketRegion, String bucketName, String keyName, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanAwsS3FileAdvancedRequestCreation(accessKey, secretKey, bucketRegion, bucketName, keyName, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).toEntity(localVarReturnType);
+        return scanCloudStorageScanAwsS3FileAdvancedRequestCreation(accessKey, secretKey, bucketRegion, bucketName, keyName, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).toEntity(localVarReturnType);
     }
     /**
      * Scan an Azure Blob for viruses
@@ -331,11 +339,13 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    private ResponseSpec scanCloudStorageScanAzureBlobAdvancedRequestCreation(String connectionString, String containerName, String blobPath, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    private ResponseSpec scanCloudStorageScanAzureBlobAdvancedRequestCreation(String connectionString, String containerName, String blobPath, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         Object postBody = null;
         // verify the required parameter 'connectionString' is set
         if (connectionString == null) {
@@ -375,6 +385,10 @@ public class ScanCloudStorageApi {
         headerParams.add("allowMacros", apiClient.parameterToString(allowMacros));
         if (allowXmlExternalEntities != null)
         headerParams.add("allowXmlExternalEntities", apiClient.parameterToString(allowXmlExternalEntities));
+        if (allowInsecureDeserialization != null)
+        headerParams.add("allowInsecureDeserialization", apiClient.parameterToString(allowInsecureDeserialization));
+        if (allowHtml != null)
+        headerParams.add("allowHtml", apiClient.parameterToString(allowHtml));
         if (restrictFileTypes != null)
         headerParams.add("restrictFileTypes", apiClient.parameterToString(restrictFileTypes));
         final String[] localVarAccepts = { 
@@ -403,18 +417,20 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanAzureBlobAdvanced(String connectionString, String containerName, String blobPath, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanAzureBlobAdvanced(String connectionString, String containerName, String blobPath, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanAzureBlobAdvancedRequestCreation(connectionString, containerName, blobPath, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).bodyToMono(localVarReturnType);
+        return scanCloudStorageScanAzureBlobAdvancedRequestCreation(connectionString, containerName, blobPath, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).bodyToMono(localVarReturnType);
     }
 
-    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanAzureBlobAdvancedWithHttpInfo(String connectionString, String containerName, String blobPath, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanAzureBlobAdvancedWithHttpInfo(String connectionString, String containerName, String blobPath, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanAzureBlobAdvancedRequestCreation(connectionString, containerName, blobPath, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).toEntity(localVarReturnType);
+        return scanCloudStorageScanAzureBlobAdvancedRequestCreation(connectionString, containerName, blobPath, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).toEntity(localVarReturnType);
     }
     /**
      * Scan an Google Cloud Platform (GCP) Storage file for viruses
@@ -502,11 +518,13 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    private ResponseSpec scanCloudStorageScanGcpStorageFileAdvancedRequestCreation(String bucketName, String objectName, org.springframework.core.io.AbstractResource jsonCredentialFile, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    private ResponseSpec scanCloudStorageScanGcpStorageFileAdvancedRequestCreation(String bucketName, String objectName, org.springframework.core.io.AbstractResource jsonCredentialFile, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         Object postBody = null;
         // verify the required parameter 'bucketName' is set
         if (bucketName == null) {
@@ -544,6 +562,10 @@ public class ScanCloudStorageApi {
         headerParams.add("allowMacros", apiClient.parameterToString(allowMacros));
         if (allowXmlExternalEntities != null)
         headerParams.add("allowXmlExternalEntities", apiClient.parameterToString(allowXmlExternalEntities));
+        if (allowInsecureDeserialization != null)
+        headerParams.add("allowInsecureDeserialization", apiClient.parameterToString(allowInsecureDeserialization));
+        if (allowHtml != null)
+        headerParams.add("allowHtml", apiClient.parameterToString(allowHtml));
         if (restrictFileTypes != null)
         headerParams.add("restrictFileTypes", apiClient.parameterToString(restrictFileTypes));
         if (jsonCredentialFile != null)
@@ -577,18 +599,20 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanGcpStorageFileAdvanced(String bucketName, String objectName, org.springframework.core.io.AbstractResource jsonCredentialFile, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanGcpStorageFileAdvanced(String bucketName, String objectName, org.springframework.core.io.AbstractResource jsonCredentialFile, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanGcpStorageFileAdvancedRequestCreation(bucketName, objectName, jsonCredentialFile, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).bodyToMono(localVarReturnType);
+        return scanCloudStorageScanGcpStorageFileAdvancedRequestCreation(bucketName, objectName, jsonCredentialFile, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).bodyToMono(localVarReturnType);
     }
 
-    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanGcpStorageFileAdvancedWithHttpInfo(String bucketName, String objectName, org.springframework.core.io.AbstractResource jsonCredentialFile, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanGcpStorageFileAdvancedWithHttpInfo(String bucketName, String objectName, org.springframework.core.io.AbstractResource jsonCredentialFile, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanGcpStorageFileAdvancedRequestCreation(bucketName, objectName, jsonCredentialFile, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).toEntity(localVarReturnType);
+        return scanCloudStorageScanGcpStorageFileAdvancedRequestCreation(bucketName, objectName, jsonCredentialFile, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).toEntity(localVarReturnType);
     }
     /**
      * Virus Scan a file in a SharePoint Online Site Drive
@@ -701,11 +725,13 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    private ResponseSpec scanCloudStorageScanSharePointOnlineFileAdvancedRequestCreation(String clientID, String clientSecret, String sharepointDomainName, String siteID, String tenantID, String filePath, String itemID, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    private ResponseSpec scanCloudStorageScanSharePointOnlineFileAdvancedRequestCreation(String clientID, String clientSecret, String sharepointDomainName, String siteID, String tenantID, String filePath, String itemID, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         Object postBody = null;
         // verify the required parameter 'clientID' is set
         if (clientID == null) {
@@ -757,6 +783,10 @@ public class ScanCloudStorageApi {
         headerParams.add("allowMacros", apiClient.parameterToString(allowMacros));
         if (allowXmlExternalEntities != null)
         headerParams.add("allowXmlExternalEntities", apiClient.parameterToString(allowXmlExternalEntities));
+        if (allowInsecureDeserialization != null)
+        headerParams.add("allowInsecureDeserialization", apiClient.parameterToString(allowInsecureDeserialization));
+        if (allowHtml != null)
+        headerParams.add("allowHtml", apiClient.parameterToString(allowHtml));
         if (restrictFileTypes != null)
         headerParams.add("restrictFileTypes", apiClient.parameterToString(restrictFileTypes));
         final String[] localVarAccepts = { 
@@ -789,17 +819,19 @@ public class ScanCloudStorageApi {
      * @param allowPasswordProtectedFiles Set to false to block password protected and encrypted files, such as encrypted zip and rar files, and other files that seek to circumvent scanning through passwords.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowMacros Set to false to block macros and other threats embedded in document files, such as Word, Excel and PowerPoint embedded Macros, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
      * @param allowXmlExternalEntities Set to false to block XML External Entities and other threats embedded in XML files, and other files that contain embedded content threats. Set to true to allow these file types. Default is false (recommended).
+     * @param allowInsecureDeserialization Set to false to block Insecure Deserialization and other threats embedded in JSON and other object serialization files, and other files that contain embedded content threats.  Set to true to allow these file types.  Default is false (recommended).
+     * @param allowHtml Set to false to block HTML input in the top level file; HTML can contain XSS, scripts, local file accesses and other threats.  Set to true to allow these file types.  Default is false (recommended) [for API keys created prior to the release of this feature default is true for backward compatability].
      * @param restrictFileTypes Specify a restricted set of file formats to allow as clean as a comma-separated list of file formats, such as .pdf,.docx,.png would allow only PDF, PNG and Word document files.  All files must pass content verification against this list of file formats, if they do not, then the result will be returned as CleanResult&#x3D;false.  Set restrictFileTypes parameter to null or empty string to disable; default is disabled.
      * @return CloudStorageAdvancedVirusScanResult
      * @throws WebClientResponseException if an error occurs while attempting to invoke the API
      */
-    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanSharePointOnlineFileAdvanced(String clientID, String clientSecret, String sharepointDomainName, String siteID, String tenantID, String filePath, String itemID, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<CloudStorageAdvancedVirusScanResult> scanCloudStorageScanSharePointOnlineFileAdvanced(String clientID, String clientSecret, String sharepointDomainName, String siteID, String tenantID, String filePath, String itemID, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanSharePointOnlineFileAdvancedRequestCreation(clientID, clientSecret, sharepointDomainName, siteID, tenantID, filePath, itemID, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).bodyToMono(localVarReturnType);
+        return scanCloudStorageScanSharePointOnlineFileAdvancedRequestCreation(clientID, clientSecret, sharepointDomainName, siteID, tenantID, filePath, itemID, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).bodyToMono(localVarReturnType);
     }
 
-    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanSharePointOnlineFileAdvancedWithHttpInfo(String clientID, String clientSecret, String sharepointDomainName, String siteID, String tenantID, String filePath, String itemID, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, String restrictFileTypes) throws WebClientResponseException {
+    public Mono<ResponseEntity<CloudStorageAdvancedVirusScanResult>> scanCloudStorageScanSharePointOnlineFileAdvancedWithHttpInfo(String clientID, String clientSecret, String sharepointDomainName, String siteID, String tenantID, String filePath, String itemID, Boolean allowExecutables, Boolean allowInvalidFiles, Boolean allowScripts, Boolean allowPasswordProtectedFiles, Boolean allowMacros, Boolean allowXmlExternalEntities, Boolean allowInsecureDeserialization, Boolean allowHtml, String restrictFileTypes) throws WebClientResponseException {
         ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult> localVarReturnType = new ParameterizedTypeReference<CloudStorageAdvancedVirusScanResult>() {};
-        return scanCloudStorageScanSharePointOnlineFileAdvancedRequestCreation(clientID, clientSecret, sharepointDomainName, siteID, tenantID, filePath, itemID, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, restrictFileTypes).toEntity(localVarReturnType);
+        return scanCloudStorageScanSharePointOnlineFileAdvancedRequestCreation(clientID, clientSecret, sharepointDomainName, siteID, tenantID, filePath, itemID, allowExecutables, allowInvalidFiles, allowScripts, allowPasswordProtectedFiles, allowMacros, allowXmlExternalEntities, allowInsecureDeserialization, allowHtml, restrictFileTypes).toEntity(localVarReturnType);
     }
 }

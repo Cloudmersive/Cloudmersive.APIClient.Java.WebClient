@@ -29,7 +29,7 @@ import org.springframework.http.ResponseEntity;
 import reactor.core.publisher.Mono;
 import reactor.core.publisher.Flux;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
 public class ValidateDocumentApi {
     private ApiClient apiClient;
 
@@ -279,7 +279,7 @@ public class ValidateDocumentApi {
         return validateDocumentDocxValidationRequestCreation(inputFile).toEntity(localVarReturnType);
     }
     /**
-     * Validate if an EML file is executable
+     * Validate if input file is a valid EML file
      * Validate if an input file is an EML email file; if the document is not valid
      * <p><b>200</b> - OK
      * @param inputFile Input file to perform the operation on.
@@ -319,7 +319,7 @@ public class ValidateDocumentApi {
     }
 
     /**
-     * Validate if an EML file is executable
+     * Validate if input file is a valid EML file
      * Validate if an input file is an EML email file; if the document is not valid
      * <p><b>200</b> - OK
      * @param inputFile Input file to perform the operation on.
@@ -735,7 +735,7 @@ public class ValidateDocumentApi {
         return validateDocumentJsonValidationRequestCreation(inputFile).toEntity(localVarReturnType);
     }
     /**
-     * Validate if an MSG file is executable
+     * Validate if input file is a valid MSG file
      * Validate if an input file is an MSG email file; if the document is not valid
      * <p><b>200</b> - OK
      * @param inputFile Input file to perform the operation on.
@@ -775,7 +775,7 @@ public class ValidateDocumentApi {
     }
 
     /**
-     * Validate if an MSG file is executable
+     * Validate if input file is a valid MSG file
      * Validate if an input file is an MSG email file; if the document is not valid
      * <p><b>200</b> - OK
      * @param inputFile Input file to perform the operation on.

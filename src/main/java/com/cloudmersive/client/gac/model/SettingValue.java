@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SettingValue.JSON_PROPERTY_CONFIG_SETTING_TAGS,
   SettingValue.JSON_PROPERTY_CONFIG_SETTING_TYPE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:59.469017-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:30.980827500-07:00[America/Los_Angeles]")
 public class SettingValue {
   public static final String JSON_PROPERTY_CONFIG_SETTING_VALUE_I_D = "ConfigSettingValueID";
   private String configSettingValueID;

@@ -89,7 +89,7 @@ public class ValidateDocumentApiTest {
     }
     
     /**
-     * Validate if an EML file is executable
+     * Validate if input file is a valid EML file
      *
      * Validate if an input file is an EML email file; if the document is not valid
      */
@@ -193,7 +193,7 @@ public class ValidateDocumentApiTest {
     }
     
     /**
-     * Validate if an MSG file is executable
+     * Validate if input file is a valid MSG file
      *
      * Validate if an input file is an MSG email file; if the document is not valid
      */

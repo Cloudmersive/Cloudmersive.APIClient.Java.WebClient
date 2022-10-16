@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxStyle.JSON_PROPERTY_FONT_SIZE,
   DocxStyle.JSON_PROPERTY_FONT_FAMILY
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:49.991337500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
 public class DocxStyle {
   public static final String JSON_PROPERTY_STYLE_I_D = "StyleID";
   private String styleID;

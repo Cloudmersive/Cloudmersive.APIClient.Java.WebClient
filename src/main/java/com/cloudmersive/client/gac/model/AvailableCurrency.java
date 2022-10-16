@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   AvailableCurrency.JSON_PROPERTY_COUNTRY_I_S_O_TWO_LETTER_CODE,
   AvailableCurrency.JSON_PROPERTY_IS_EUROPEAN_UNION_MEMBER
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:39:11.036773300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:44.987025100-07:00[America/Los_Angeles]")
 public class AvailableCurrency {
   public static final String JSON_PROPERTY_IS_O_CURRENCY_CODE = "ISOCurrencyCode";
   private String isOCurrencyCode;

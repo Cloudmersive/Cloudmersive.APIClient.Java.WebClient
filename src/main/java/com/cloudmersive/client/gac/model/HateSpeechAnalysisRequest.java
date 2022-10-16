@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   HateSpeechAnalysisRequest.JSON_PROPERTY_TEXT_TO_ANALYZE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-06-02T23:38:36.056137200-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:07.449581100-07:00[America/Los_Angeles]")
 public class HateSpeechAnalysisRequest {
   public static final String JSON_PROPERTY_TEXT_TO_ANALYZE = "TextToAnalyze";
   private String textToAnalyze;
