@@ -42,7 +42,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   DocxTopLevelComment.JSON_PROPERTY_REPLY_CHILD_COMMENTS,
   DocxTopLevelComment.JSON_PROPERTY_DONE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
 public class DocxTopLevelComment {
   public static final String JSON_PROPERTY_PATH = "Path";
   private String path;

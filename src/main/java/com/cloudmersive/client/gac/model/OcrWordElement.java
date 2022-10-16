@@ -42,7 +42,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   OcrWordElement.JSON_PROPERTY_PARAGRAPH_NUMBER,
   OcrWordElement.JSON_PROPERTY_PAGE_NUMBER
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:11.081951500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:27.708282300-07:00[America/Los_Angeles]")
 public class OcrWordElement {
   public static final String JSON_PROPERTY_WORD_TEXT = "WordText";
   private String wordText;

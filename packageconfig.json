@@ -5,6 +5,6 @@
     "groupId": "com.cloudmersive.gac",
     "artifactId": "cloudmersive-java-api-client-gac",
     "library": "webclient",
-    "artifactVersion": "4.0.1",
+    "artifactVersion": "4.1.1",
     "useAbstractionForFiles": "true"
 }

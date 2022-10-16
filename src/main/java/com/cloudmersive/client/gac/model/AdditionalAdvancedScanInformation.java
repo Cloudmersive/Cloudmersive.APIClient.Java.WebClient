@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   AdditionalAdvancedScanInformation.JSON_PROPERTY_CONTAINS_X_M_L,
   AdditionalAdvancedScanInformation.JSON_PROPERTY_CONTAINS_IMAGE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:27.877589-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:44.614679900-07:00[America/Los_Angeles]")
 public class AdditionalAdvancedScanInformation {
   public static final String JSON_PROPERTY_CONTAINS_J_S_O_N = "ContainsJSON";
   private Boolean containsJSON;

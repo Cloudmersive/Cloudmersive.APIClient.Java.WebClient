@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   UrlSafetyCheckResponseFull.JSON_PROPERTY_CLEAN_U_R_L,
   UrlSafetyCheckResponseFull.JSON_PROPERTY_THREAT_TYPE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:03.012760300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:19.474063200-07:00[America/Los_Angeles]")
 public class UrlSafetyCheckResponseFull {
   public static final String JSON_PROPERTY_CLEAN_U_R_L = "CleanURL";
   private Boolean cleanURL;

@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ValidateCityResponse.JSON_PROPERTY_LATITUDE,
   ValidateCityResponse.JSON_PROPERTY_LONGITUDE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:03.012760300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:19.474063200-07:00[America/Los_Angeles]")
 public class ValidateCityResponse {
   public static final String JSON_PROPERTY_VALID_CITY = "ValidCity";
   private Boolean validCity;

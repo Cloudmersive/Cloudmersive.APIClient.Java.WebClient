@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   CheckSentenceRequest.JSON_PROPERTY_SENTENCE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:07.449581100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
 public class CheckSentenceRequest {
   public static final String JSON_PROPERTY_SENTENCE = "Sentence";
   private String sentence;

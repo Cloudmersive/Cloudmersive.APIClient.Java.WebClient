@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   TableRowResult.JSON_PROPERTY_TABLE_ROW_CELLS_RESULT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:11.081951500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:27.708282300-07:00[America/Los_Angeles]")
 public class TableRowResult {
   public static final String JSON_PROPERTY_TABLE_ROW_CELLS_RESULT = "TableRowCellsResult";
   private List<TableCellResult> tableRowCellsResult = null;

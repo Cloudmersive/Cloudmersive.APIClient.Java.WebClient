@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   TextDocumentLine.JSON_PROPERTY_LINE_NUMBER,
   TextDocumentLine.JSON_PROPERTY_LINE_CONTENTS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
 public class TextDocumentLine {
   public static final String JSON_PROPERTY_LINE_NUMBER = "LineNumber";
   private Integer lineNumber;

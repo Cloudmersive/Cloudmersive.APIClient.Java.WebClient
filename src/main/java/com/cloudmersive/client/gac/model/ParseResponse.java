@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   ParseResponse.JSON_PROPERTY_PARSE_TREE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:07.449581100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
 public class ParseResponse {
   public static final String JSON_PROPERTY_PARSE_TREE = "ParseTree";
   private String parseTree;

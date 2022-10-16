@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   PosResponse.JSON_PROPERTY_TAGGED_SENTENCES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:07.449581100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
 public class PosResponse {
   public static final String JSON_PROPERTY_TAGGED_SENTENCES = "TaggedSentences";
   private List<PosSentence> taggedSentences = null;

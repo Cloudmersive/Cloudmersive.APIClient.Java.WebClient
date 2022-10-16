@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   NsfwResult.JSON_PROPERTY_TOTAL_FRAMES,
   NsfwResult.JSON_PROPERTY_NSFW_SCANNED_FRAMES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:34.870739900-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:51.413353-07:00[America/Los_Angeles]")
 public class NsfwResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

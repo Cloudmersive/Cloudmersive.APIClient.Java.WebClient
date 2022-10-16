@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   NsfwScannedFrame.JSON_PROPERTY_CLASSIFICATION_RESULT,
   NsfwScannedFrame.JSON_PROPERTY_SCORE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:34.870739900-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:51.413353-07:00[America/Los_Angeles]")
 public class NsfwScannedFrame {
   public static final String JSON_PROPERTY_FRAME_NUMBER = "FrameNumber";
   private Integer frameNumber;

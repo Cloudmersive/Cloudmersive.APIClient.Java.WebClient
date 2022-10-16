@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FacePoint.JSON_PROPERTY_X,
   FacePoint.JSON_PROPERTY_Y
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:17.104419100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:33.831018100-07:00[America/Los_Angeles]")
 public class FacePoint {
   public static final String JSON_PROPERTY_X = "X";
   private Integer X;

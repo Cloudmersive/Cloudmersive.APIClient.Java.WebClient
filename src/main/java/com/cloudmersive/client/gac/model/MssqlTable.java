@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MssqlTable.JSON_PROPERTY_SCHEMA_NAME,
   MssqlTable.JSON_PROPERTY_TABLE_NAME
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:41.724617600-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:54.738339200-07:00[America/Los_Angeles]")
 public class MssqlTable {
   public static final String JSON_PROPERTY_SCHEMA_NAME = "schemaName";
   private String schemaName;

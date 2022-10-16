@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   HttpGetParameter.JSON_PROPERTY_PARAMETER_VALUE,
   HttpGetParameter.JSON_PROPERTY_USE_OUTPUT_FROM_PREVIOUS_TASK
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:30.980827500-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:47.772048100-07:00[America/Los_Angeles]")
 public class HttpGetParameter {
   public static final String JSON_PROPERTY_PARAMETER_NAME = "ParameterName";
   private String parameterName;

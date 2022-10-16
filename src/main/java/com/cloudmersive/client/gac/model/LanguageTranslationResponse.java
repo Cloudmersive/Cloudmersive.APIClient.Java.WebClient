@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   LanguageTranslationResponse.JSON_PROPERTY_TRANSLATED_TEXT_RESULT,
   LanguageTranslationResponse.JSON_PROPERTY_SENTENCE_COUNT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:07.449581100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:23.937256-07:00[America/Los_Angeles]")
 public class LanguageTranslationResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

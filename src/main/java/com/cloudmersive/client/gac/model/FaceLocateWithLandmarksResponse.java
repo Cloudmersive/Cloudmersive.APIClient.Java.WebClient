@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FaceLocateWithLandmarksResponse.JSON_PROPERTY_FACE_COUNT,
   FaceLocateWithLandmarksResponse.JSON_PROPERTY_ERROR_DETAILS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:17.104419100-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:33.831018100-07:00[America/Los_Angeles]")
 public class FaceLocateWithLandmarksResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

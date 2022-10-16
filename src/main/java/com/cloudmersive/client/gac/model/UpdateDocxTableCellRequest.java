@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   UpdateDocxTableCellRequest.JSON_PROPERTY_TABLE_CELL_INDEX,
   UpdateDocxTableCellRequest.JSON_PROPERTY_EXISTING_TABLE_PATH
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
 public class UpdateDocxTableCellRequest {
   public static final String JSON_PROPERTY_INPUT_FILE_BYTES = "InputFileBytes";
   private byte[] inputFileBytes;

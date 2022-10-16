@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FindStringSimpleResponse.JSON_PROPERTY_MATCHES,
   FindStringSimpleResponse.JSON_PROPERTY_MATCH_COUNT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
 public class FindStringSimpleResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

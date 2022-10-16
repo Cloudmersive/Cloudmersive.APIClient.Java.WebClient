@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   SplitXlsxWorksheetResult.JSON_PROPERTY_RESULT_WORKSHEETS,
   SplitXlsxWorksheetResult.JSON_PROPERTY_SUCCESSFUL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:21.963387400-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:38.799299300-07:00[America/Los_Angeles]")
 public class SplitXlsxWorksheetResult {
   public static final String JSON_PROPERTY_RESULT_WORKSHEETS = "ResultWorksheets";
   private List<WorksheetResult> resultWorksheets = null;

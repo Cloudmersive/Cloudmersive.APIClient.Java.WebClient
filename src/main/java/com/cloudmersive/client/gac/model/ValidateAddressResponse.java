@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ValidateAddressResponse.JSON_PROPERTY_LATITUDE,
   ValidateAddressResponse.JSON_PROPERTY_LONGITUDE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:13:03.012760300-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T18:16:19.474063200-07:00[America/Los_Angeles]")
 public class ValidateAddressResponse {
   public static final String JSON_PROPERTY_VALID_ADDRESS = "ValidAddress";
   private Boolean validAddress;
